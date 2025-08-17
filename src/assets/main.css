@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+    --color-nhblue-950: #081A2D;
+    --color-nhblue-900: #0C233C;
+    --color-nhblue-800: #0F2A48;
+    --color-nhblue-700: #1F3C5E;
+    --color-nhblue-600: #1D4676;
+    --color-nhblue-500: #13598A;
+    --color-nhblue-400: #1B7DC2;
+    --color-nhblue-300: #3D92C6;
+    --color-nhblue-200: #4DAAE3;
+    --color-nhblue-100: #74C3F4;
+    --color-nhblue-50: #95D6FE;
+    
+    
+    
+    --color-nhgreen-700: #24514E;
+
+
+    --color-nhprimary-400: var(--color-nhblue-200);
+    --color-nhsecondary-400: var(--color-nhblue-600);
+    --color-nhsuccess-400: var(--color-nhgreen-700);
+}
+
+:root {
+    --ui-bg: var(--color-white);
+    overflow-x: hidden;
+    color: black;
+}
